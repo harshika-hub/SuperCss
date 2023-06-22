@@ -1,0 +1,761 @@
+*{
+        margin: 0;
+        color: white;
+        /* border-style: solid; */
+}
+#containar
+{
+width:99%;
+height:auto;
+margin: auto;
+
+}
+#logo{
+height: 60px;
+
+}
+#header{
+        height: 60px;
+}
+#nav{
+        z-index: 1;
+        position: sticky;
+        height: 50px;
+        top: 0;
+        background-color: goldenrod;
+}
+#nav ul{
+        list-style: none;
+        padding: 8px;
+}
+#nav ul li{
+        display: inline;
+}
+#nav ul li a{
+        font-size: 22px;
+        font-family: candara;
+        /* padding: 65px; */
+        margin-left: 105px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+}
+#nav ul li a:hover{
+        color: black;
+
+}
+#nav ul li ul{
+        display: none;
+}
+#nav ul li:hover ul{
+        display: block;
+        position: absolute;
+        width: 170px;
+        background-color: goldenrod;
+        margin-left: 360px;
+        align-items: center;
+}
+#nav ul li ul li {
+        /* margin-left: 5px; */
+        margin: -40px;
+        text-align: center;
+}
+#wallimage{
+        height:560px;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #wal{
+        height:560px;
+        width:100%
+    }
+    #marq{
+        background-color: whitesmoke;
+        color:black;
+        font-size: 22px;
+        font-family: candara;
+        padding: 5px;
+    }
+    #marktext{
+                color: black;
+    }
+    #boxes{
+        height: 320px;
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+    #box1,#box2,#box3,#box4{
+        height: 300px;
+        width: 320px;
+        margin: 12px;
+        float:left;
+    }
+    #imgset{
+        height: 300px;
+        width: 340px;
+    }
+    #price{
+        float: left;
+        color: black;
+    }
+    #btnleft{
+        height: 36px;
+        width: 28px;
+        color:white;
+        border:0px;
+        font-weight: bolder;
+        background-color: red;
+        margin-left:22px ;
+    }
+    #btnright{
+        height: 36px;
+        width: 28px;
+        color:white;
+        font-weight: bolder;
+        background-color: green;
+        border:0px;
+    }
+    #qty{
+        height: 31px;
+        width: 230px;
+        font-size: 18px;
+        border:0px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+    #bar{
+        height:300px;
+        padding: 60px;
+    }
+    #barheading{
+        font-family: candara;
+        font-size: 30px;
+        color: black;
+    }
+    #barcontent{
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    #block{
+        height: 320px;
+        background-color: whitesmoke;
+        padding: 30px;
+    }
+    #block1,#block2,#block3,#block4{
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-radius: 50%;
+        margin:13px;
+        float: left;
+        margin-top: 20px;
+    }
+    #circleimage{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    #about{
+        height:400px;
+        padding: 30px;
+    }
+    #about1{
+        height: 400px;
+        width: 400px;
+        margin: 10px;
+        float: left;
+        margin-top: 20px;
+        border-radius:30%;
+    }
+    #about2{
+        height: 400px;
+        width: 895px;
+        margin: 10px;
+        color: black;
+        float: left;
+        margin-top: 20px;
+        padding: 20px;
+        font-family: candara;
+        font-size: 20px;
+        text-align: justify;
+    }
+    #aboutimage{
+        height: 400px;
+        width: 400px;
+        border-radius:30%;
+    }
+    #newsletter{
+        margin-top: 50px;
+        height:150px;
+        padding: 30px;
+        background-color: whitesmoke;
+    }
+    #newspara{
+        height:40px;
+        padding: 40px;
+        text-align: center;
+    }
+    #newsinput{
+        height:50px;
+        width:600px;
+        font-family: candara;
+        font-size: 20px;
+        border:0px;
+        text-align: center;
+    }
+    #newsbtn{
+        height:52px;
+        background-color: crimson;
+        color:white;
+        width:150px;
+        font-family: candara;
+        font-size: 20px;
+        border:0px;
+        text-align: center;
+    }
+
+    #contact{
+        height:400px;
+        padding: 20px;
+    }
+    #contact1,#contact2,#contact3{
+        background-color: whitesmoke;
+        height: 340px;
+        width: 220px;
+        margin: 10px;
+        margin-top: 30px;
+        float: left;
+        font-family: candara;
+        font-size: 20px;
+        padding:10px;
+    }
+    #contact4{
+        height: 320px;
+        width:335px;
+        float: left;
+        margin:10px;
+        margin-top: 30px;
+    }
+    #contact1 p,#contact2 p,#contact3 p{
+        font-size: 22px;
+        font-weight: bolder;
+        line-height:50px;
+        color:black ;
+    }
+    ul li{
+        list-style-image: url(images/check1.jpg);
+        color: black;
+    }
+    #adds{
+        color:black;
+    }
+    #footer{
+        height: 26px;
+        padding: 8px;
+        background-color: whitesmoke;
+        font-family: candara;
+        font-size: 20px;
+        margin-top: 80px;
+        display: block;
+    }
+    #footercontent{
+        color: black;
+        display: block;
+    }
+    #loginblock{
+        box-shadow: 1px 1px 3px 0px;
+        height:330px;
+        width:450px;
+        background-color: whitesmoke;
+        margin : 60px auto;
+        margin-bottom: 200px;
+    }
+    #loginbtn{
+        width: 223px;
+        height:42px;
+        border:0px;
+        font-size: 22px;
+        font-family: candara;
+        background-color: goldenrod;
+        color: white;
+    }
+    #regbtn{
+        border:0px;
+        width: 223px;
+        height:42px;
+        background-color: lightgrey;
+        color:darkslategrey;
+        font-size: 22px;
+        font-family: candara;
+    }
+    #inputfield{
+        height:40px;
+        width: 290px;
+        font-size: 19px;
+        font-family: candara;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom-width: 1px;
+        border-color:goldenrod;
+        text-align: center;
+        outline: 0px;
+        margin:12px;
+        margin-left: 75px;
+    }
+    #inputbtn{
+        height:40px;
+        width: 138px;
+        font-size: 19px;
+        font-family: candara;
+        border: 0px;
+        text-align: center;
+        outline: 0px;
+        margin:8px;
+        background-color: goldenrod;
+        color:white;
+    }
+    #loginblock p{
+        text-align: center;
+    }
+    #line a{
+        font-family: candara;
+        text-decoration: none;
+        color:darkslategrey;
+    }
+    #price{
+        color: black;
+        margin-left: 50px;
+    }
+    #picture{
+        height: 320px;
+        padding: 20px;
+         width: 98vh;
+        background-color: whitesmoke;
+        /* margin-bottom: 100px; */
+    }
+    #pic1,#pic2,#pic3,#pic4{
+        height: 300px;
+        width: 458px;
+        margin: 10px;
+        padding: auto;
+        float:left;
+
+    }
+    #services {
+        float: left;
+        width: 350px;
+        border-style: solid;
+        height: 350;
+    }
+
+    #simg{
+        width: 550px;
+        float: left;
+        height: 350;
+    }
+    #slist p{
+        color: black;
+
+
+    }
+    #slist{
+        font-size: 22px;
+        padding: 12px;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-family: candara;
+        text-align: justify;
+        height: 400;
+    }
+    #list li{
+
+margin-left: 20px;  
+  }
+  /* @media screen and (max-width:360px){ */
+
+  @media screen and (max-width:320px)   {
+
+    *{
+        margin: 0;
+        color: white;
+        /* border-style: solid; */
+}
+#containar
+{
+width:99%;
+height:auto;
+margin: auto;
+
+}
+#logo{
+height: 40px;
+
+}
+#header{
+        height: 40px;
+}
+#nav{
+        z-index: 1;
+        position: sticky;
+        height: 50px;
+        top: 0;
+        background-color: goldenrod;
+}
+#nav ul{
+        list-style: none;
+        padding: 8px;
+}
+#nav ul li{
+        display: inline;
+}
+#nav ul li a{
+        font-size: 22px;
+        font-family: candara;
+        /* padding: 65px; */
+        margin-left: 105px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+}
+#nav ul li a:hover{
+        color: black;
+
+}
+#nav ul li ul{
+        display: none;
+}
+#nav ul li:hover ul{
+        display: block;
+        position: absolute;
+        width: 170px;
+        background-color: goldenrod;
+        margin-left: 360px;
+        align-items: center;
+}
+#nav ul li ul li {
+        /* margin-left: 5px; */
+        margin: -40px;
+        text-align: center;
+}
+#wallimage{
+        height:560px;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #wal{
+        height:560px;
+        width:100%
+    }
+    #marq{
+        background-color: whitesmoke;
+        color:black;
+        font-size: 22px;
+        font-family: candara;
+        padding: 5px;
+    }
+    #marktext{
+                color: black;
+    }
+    #boxes{
+        height: 320px;
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+    #box1,#box2,#box3,#box4{
+        height: 300px;
+        width: 320px;
+        margin: 12px;
+        float:left;
+    }
+    #imgset{
+        height: 300px;
+        width: 340px;
+    }
+    #price{
+        float: left;
+        color: black;
+    }
+    #btnleft{
+        height: 36px;
+        width: 28px;
+        color:white;
+        border:0px;
+        font-weight: bolder;
+        background-color: red;
+        margin-left:22px ;
+    }
+    #btnright{
+        height: 36px;
+        width: 28px;
+        color:white;
+        font-weight: bolder;
+        background-color: green;
+        border:0px;
+    }
+    #qty{
+        height: 31px;
+        width: 230px;
+        font-size: 18px;
+        border:0px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+    #bar{
+        height:300px;
+        padding: 60px;
+    }
+    #barheading{
+        font-family: candara;
+        font-size: 30px;
+        color: black;
+    }
+    #barcontent{
+        padding: 30px;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    #block{
+        height: 320px;
+        background-color: whitesmoke;
+        padding: 30px;
+    }
+    #block1,#block2,#block3,#block4{
+        height: 250px;
+        width: 250px;
+        background-color: white;
+        border-radius: 50%;
+        margin:13px;
+        float: left;
+        margin-top: 20px;
+    }
+    #circleimage{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    #about{
+        height:400px;
+        padding: 30px;
+    }
+    #about1{
+        height: 400px;
+        width: 400px;
+        margin: 10px;
+        float: left;
+        margin-top: 20px;
+        border-radius:30%;
+    }
+    #about2{
+        height: 400px;
+        width: 895px;
+        margin: 10px;
+        color: black;
+        float: left;
+        margin-top: 20px;
+        padding: 20px;
+        font-family: candara;
+        font-size: 20px;
+        text-align: justify;
+    }
+    #aboutimage{
+        height: 400px;
+        width: 400px;
+        border-radius:30%;
+    }
+    #newsletter{
+        margin-top: 50px;
+        height:150px;
+        padding: 30px;
+        background-color: whitesmoke;
+    }
+    #newspara{
+        height:40px;
+        padding: 40px;
+        text-align: center;
+    }
+    #newsinput{
+        height:50px;
+        width:600px;
+        font-family: candara;
+        font-size: 20px;
+        border:0px;
+        text-align: center;
+    }
+    #newsbtn{
+        height:52px;
+        background-color: crimson;
+        color:white;
+        width:150px;
+        font-family: candara;
+        font-size: 20px;
+        border:0px;
+        text-align: center;
+    }
+
+    #contact{
+        height:400px;
+        padding: 20px;
+    }
+    #contact1,#contact2,#contact3{
+        background-color: whitesmoke;
+        height: 340px;
+        width: 220px;
+        margin: 10px;
+        margin-top: 30px;
+        float: left;
+        font-family: candara;
+        font-size: 20px;
+        padding:10px;
+    }
+    #contact4{
+        height: 320px;
+        width:335px;
+        float: left;
+        margin:10px;
+        margin-top: 30px;
+    }
+    #contact1 p,#contact2 p,#contact3 p{
+        font-size: 22px;
+        font-weight: bolder;
+        line-height:50px;
+        color:black ;
+    }
+    ul li{
+        list-style-image: url(images/check1.jpg);
+        color: black;
+    }
+    #adds{
+        color:black;
+    }
+    #footer{
+        height: 26px;
+        padding: 8px;
+        background-color: whitesmoke;
+        font-family: candara;
+        font-size: 20px;
+        margin-top: 80px;
+        display: block;
+    }
+    #footercontent{
+        color: black;
+        display: block;
+    }
+    #loginblock{
+        box-shadow: 1px 1px 3px 0px;
+        height:330px;
+        width:450px;
+        background-color: whitesmoke;
+        margin : 60px auto;
+        margin-bottom: 200px;
+    }
+    #loginbtn{
+        width: 223px;
+        height:42px;
+        border:0px;
+        font-size: 22px;
+        font-family: candara;
+        background-color: goldenrod;
+        color: white;
+    }
+    #regbtn{
+        border:0px;
+        width: 223px;
+        height:42px;
+        background-color: lightgrey;
+        color:darkslategrey;
+        font-size: 22px;
+        font-family: candara;
+    }
+    #inputfield{
+        height:40px;
+        width: 290px;
+        font-size: 19px;
+        font-family: candara;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom-width: 1px;
+        border-color:goldenrod;
+        text-align: center;
+        outline: 0px;
+        margin:12px;
+        margin-left: 75px;
+    }
+    #inputbtn{
+        height:40px;
+        width: 138px;
+        font-size: 19px;
+        font-family: candara;
+        border: 0px;
+        text-align: center;
+        outline: 0px;
+        margin:8px;
+        background-color: goldenrod;
+        color:white;
+    }
+    #loginblock p{
+        text-align: center;
+    }
+    #line a{
+        font-family: candara;
+        text-decoration: none;
+        color:darkslategrey;
+    }
+    #price{
+        color: black;
+        margin-left: 50px;
+    }
+    #picture{
+        height: 320px;
+        padding: 20px;
+         width: 98vh;
+        background-color: whitesmoke;
+        /* margin-bottom: 100px; */
+    }
+    #pic1,#pic2,#pic3,#pic4{
+        height: 300px;
+        width: 458px;
+        margin: 10px;
+        padding: auto;
+        float:left;
+
+    }
+    #services {
+        float: left;
+        width: 350px;
+        border-style: solid;
+        height: 350;
+    }
+
+    #simg{
+        width: 550px;
+        float: left;
+        height: 350;
+    }
+    #slist p{
+        color: black;
+
+
+    }
+    #slist{
+        font-size: 22px;
+        padding: 12px;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-family: candara;
+        text-align: justify;
+        height: 400;
+    }
+    #list li{
+
+margin-left: 20px;  
+  }
+
+
+  }
